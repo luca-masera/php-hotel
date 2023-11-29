@@ -18,10 +18,10 @@ if (isset($_GET['parking'])) {
 
 <header>
     <form action="index.php" methods="GET">
-        <select class="form-select w-25" aria-label="Default select example">
+        <select class="form-select w-25" aria-label="Default select example" name='parking'>
 
-            <option value='true' name='parking'>Hotel con parcheggio</option>
-            <option value='false' name='parking'>Hotel senza parcheggio</option>
+            <option value='1'>Hotel con parcheggio</option>
+            <option value='0'>Hotel senza parcheggio</option>
         </select>
         <button type="submit">Cerca</button>
     </form>

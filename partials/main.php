@@ -1,7 +1,3 @@
-<?php include __DIR__ . '/../model/dati.php';
-//var_dump($hotels)
-?>
-
 <main>
     <table class="table">
         <thead>
